@@ -12,7 +12,7 @@ class NavigationController: UINavigationController {
     // MARK: - Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        let rootViewController = HomeScreenViewController()
+        let rootViewController = HomeViewController()
         setViewControllers([rootViewController], animated: true)
     }
 }
